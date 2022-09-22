@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MY INFO</title>
+    <style>
+      div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+<h2> FORM </h2>
+    <form action="/form/submit" method="post">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div>
+        <label for="age">Your Age</label>
+        <input type="text" id="age" name="age" placeholder="Enter your age" />
+      </div>
+      <div>
+        <label for="country">Enter Your Country</label>
+        <input type="text" id="country" name="country" placeholder="Country" />
+      </div>
+<div>
+<p>Gender</p>
+<input type="radio" id="male" name="male" value="MALE">
+  <label for="html">MALE</label><br>
+  <input type="radio" id="female" name="male" value="FEMALE">
+  <label for="css">FEMALE</label><br>
+</div>
+ <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
